@@ -1123,7 +1123,7 @@
     "pilgrim": "Faxian",
     "sequence": 51,
     "canonicalId": "simhala",
-    "names": { "primary": "Sri Lanka", "asGiven": "the country of Singhala", "variants": ["Singhala", "Ceylon", "Sri Lanka", "Sihala", "Singhala (Ceylon)", "Siṃhala"] },
+    "names": { "primary": "Anuradhapura", "asGiven": "the country of Singhala", "variants": ["Singhala", "Ceylon", "Sri Lanka", "Sihala", "Singhala (Ceylon)", "Siṃhala"] },
     "type": ["kingdom", "port"],
     "firsthand": true,
     "yana": ["Śrāvakayāna", "Mahāyāna"],
@@ -1140,7 +1140,7 @@
     "figures": ["Faxian", "Buddha", "Dharma-gupta"],
     "route": { "fromPlace": "Tamalipti", "directionFromPrev": "south-west by sea", "distance": "14 days (~700 yojanas)" },
     "date": { "year": 412, "yearEarliest": 411, "yearLatest": 413, "approx": true, "text": "c. 411–413 CE (two-year stay)", "basis": "Legge: the return took three years from leaving India (c. 411) to reaching Ts'ing-chow (414); Faxian stayed two years in Ceylon, then five months at Java, then sailed for China." },
-    "scholarlyNotes": { "modernName": "Sri Lanka (Anuradhapura)", "coordinates": {"lat": 8.3114, "lon": 80.4037, "note": "Anuradhapura, Sri Lanka (the ancient capital). Standard scholarly identification; coordinates of the known site/city."}, "geoConfidence": "high", "notes": "Legge: 'the Kingdom of the Lion', Ceylon. The Abhayagiri and Maha-vihara monasteries and Mihintale lie at/near Anuradhapura. No lat/lon in the notes." },
+    "scholarlyNotes": { "modernName": "Sri Lanka (Anuradhapura)", "coordinates": {"lat": 8.3114, "lon": 80.4037, "note": "Anuradhapura, Sri Lanka (the ancient capital). Standard scholarly identification; coordinates of the known site/city."}, "geoConfidence": "high", "notes": "Legge: 'the Kingdom of the Lion', Ceylon. The Abhayagiri and Maha-vihara monasteries and Mihintale lie at/near Anuradhapura. No lat/lon in the notes. Derived Vajrayāna (flagged, never Faxian's words; see About): he records no mantra practice, and the evidence is three to four centuries later than his stay. Amoghavajra received the Vajraśekhara yoga teachings, the five-family abhiṣeka and more than 500 Sanskrit texts in Siṃhala in 742–746/747 (Feixi's stele of 774, T 2120; Sundberg and Giebel 2011); dhāraṇī stones excavated at the Abhayagiri carry a dhāraṇī that Amoghavajra translated (Schopen 1982, cited in Sundberg 2014); de Silva (1981, p. 51) records Nāgarī-script dhāraṇīs, bronze Tārā images and a Vajravāda school in ninth-century Rajarata. The monks remained Theravāda (Sthavira) by Vinaya throughout." },
     "source": { "work": "A Record of Buddhistic Kingdoms (Legge)", "ref": "Chapters XXXVII–XXXIX", "quote": "they came to the country of Singhala.(4)" }
   },
   {

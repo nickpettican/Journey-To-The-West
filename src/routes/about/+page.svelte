@@ -92,7 +92,7 @@
 		inside Mahāyāna communities, and it became public only in the century after Yijing sailed
 		home. But the records carry early traces of its mantra practice, and, exactly as with the
 		Mūlasarvāstivāda above, the map reads the later evidence backwards <em>site by site</em>. It
-		does so at two places only, each shown as a flagged “(derived)” value alongside the witnessed
+		does so at three places only, each shown as a flagged “(derived)” value alongside the witnessed
 		yāna, never replacing it. On the map it is drawn the same way: the bubble keeps the witnessed
 		colour, and the derived Vajrayāna appears as a purple ring around it.
 	</p>
@@ -106,6 +106,38 @@
 		Vidyādhara-piṭaka, a corpus of mantras he says ran to 100,000 stanzas and could not be
 		understood until expounded orally. Under the Pālas, a few decades later, Nālandā taught
 		Vajrayāna openly, and its excavated bronzes include Vajrayāna deities.
+	</p>
+	<p>
+		<strong>Anurādhapura</strong> (Sri Lanka; Faxian’s stay of 411–413 and Xuanzang’s report
+		of c. 640) is the third, and it rests on a different kind of evidence, because here no
+		pilgrim mentions mantra practice at all. Faxian lived two years in the capital and records
+		five thousand monks at the Abhayagiri. Xuanzang, who never crossed to the island, was told
+		that the Abhayagiri sect “studied the teachings of both yānas (vehicles)”, while the
+		Mahāvihāra “refuted the Mahāyāna teachings”. The esoteric evidence comes later. Between
+		742 and 746/747 the Tang court monk
+		Amoghavajra went to Siṃhala and received from an ācārya named Samantabhadra the
+		eighteen-assembly <em>Vajraśekhara</em> yoga, the five-family abhiṣeka and more than 500
+		Sanskrit texts; the stele written by his disciple Feixi on his death in 774 says so directly.
+		Stones excavated at the Abhayagiri are inscribed with a dhāraṇī that Amoghavajra also
+		translated, and by the ninth century dhāraṇīs in Nāgarī script, bronze images of Tārā and a
+		school called the Vajravāda are attested in the island’s old heartland. Throughout, these
+		monks stayed within the Sthavira (Theravāda) ordination line: Theravāda by Vinaya, Mahāyāna
+		and then Vajrayāna by practice, the same layering described below. The ring is drawn on
+		the Anurādhapura bubble, which is Faxian’s first-hand visit. It marks what this community
+		became three centuries after he saw it, not something he witnessed. Xuanzang’s report is
+		told on the place page and has no marker of its own on the map.
+	</p>
+	<p>
+		The records hold other traces of mantra practice, now told on the relevant place pages,
+		that do not earn a ring because they name no community that later became openly Vajrayāna.
+		At Rājagṛha Xuanzang tells of a bhikṣu who “prepared an altar and recited mantras” in
+		Pippala Cave, and of a tradition that the Great Congregation’s canon already held a “Dhāraṇī
+		piṭaka” beside the other baskets. At Vaiśālī he saw the ruined hall where the Buddha was said
+		to have taught the Samantamukha-dhāraṇī. Yijing’s life of Tao-lin has that monk set up an
+		altar and study the spells in the Lāṭa country of Western India, where tradition said
+		Nāgārjuna’s disciple Nanda had spent twelve years mastering them. Two more of Yijing’s
+		Chinese pilgrims, Pien and T’an-jun, are described as trained in mantras and “the art of
+		exorcism” before they ever left home.
 	</p>
 	<p>
 		The ring, not a recolouring, is deliberate. A monastic community that takes up the mantra
@@ -134,7 +166,36 @@
 		Swat Valley” (1940), for the identification of Swat as Oḍḍiyāna; Chou Yi-liang, “Tantrism in
 		China”, <em>Harvard Journal of Asiatic Studies</em> 8 (1945), on Yijing’s Vidyādhara-piṭaka
 		notice; Ronald M. Davidson, <em>Indian Esoteric Buddhism</em> (Columbia, 2002), on the
-		tradition’s emergence into the open.
+		tradition’s emergence into the open. For Sri Lanka: Jeffrey Sundberg with Rolf Giebel, “The
+		Life of the Tang Court Monk Vajrabodhi as Chronicled by Lü Xiang”, <em>Pacific World</em>
+		3rd ser. 13 (2011), pp. 129–222, for Amoghavajra’s journey and Feixi’s stele (T 2120,
+		52.848b–c); Jeffrey Sundberg, “The Abhayagirivihāra’s Pāṃśukūlika Monks in Second
+		Lambakaṇṇa Śrī Laṅkā and Śailendra Java”, <em>Pacific World</em> 3rd ser. 16 (2014),
+		pp. 49–185; Gregory Schopen, “The Text on the ‘Dhāraṇī Stones from Abhayagiriya’”,
+		<em>Journal of the International Association of Buddhist Studies</em> 5/1 (1982), cited
+		here through Sundberg 2014; K. M. de Silva, <em>A History of Sri Lanka</em> (1981), p. 51.
+	</p>
+
+	<h2>Valabhī: Mahāyāna masters in a Saṃmitīya country</h2>
+	<p>
+		One place is recoloured, not ringed. At Valabhī (c. 641) Xuanzang found more than a hundred
+		monasteries with over six thousand monks, “most of whom study the Dharma of the Hinayana
+		Saṃmitīya school”, and on that sentence alone the bubble would be Śrāvakayāna. But most is
+		not all. In the same passage he records, not far from the city, a great monastery “where
+		the bodhisattvas Guṇamati and Sthiramati stayed and composed treatises that are widely
+		circulated”. He names the pair again among the masters of Nālandā, and both are counted
+		among the Yogācāra commentators on Vasubandhu’s <em>Triṃśikā</em>. Yijing, a generation
+		later, lists Sthiramati and Guṇamati among the great masters “of late years” and pairs
+		Valabhī with Nālandā as the two places where “eminent and accomplished men assemble in
+		crowds”. Takakusu adds that a Valabhī grant refers to Sthiramati (<em>Indian Antiquary</em>,
+		1877, p. 91; 1878, p. 80).
+	</p>
+	<p>
+		The map therefore shows Valabhī as Mahāyāna and Śrāvakayāna together, with the Mahāyāna
+		flagged “(derived)” in the detail panel. Nikāya and yāna are separate axes, so Mahāyāna
+		study in a country that was mostly Saṃmitīya by ordination is no contradiction. How many of
+		the six thousand monks followed it in 641 is not recorded, and Xuanzang’s sentence about
+		the majority stands as he wrote it.
 	</p>
 
 	<h2>What the data cannot say</h2>
@@ -163,6 +224,14 @@
 		Basemap geometry from Natural Earth (public domain); terrain relief from the Mapzen/AWS open
 		elevation tiles. Type set in EB Garamond, Gentium Book Plus and Noto Sans. Built with
 		SvelteKit, MapLibre GL, D3 and GSAP.
+	</p>
+
+	<h2 id="cookies">Cookies</h2>
+	<p>
+		With your agreement, the site uses Google Analytics to see how it is used so it can be
+		improved. No analytics script runs and no analytics cookie is set until you accept, and the
+		site works the same if you decline. Your choice is remembered in your browser; to change it,
+		clear this site's data.
 	</p>
 
 	<p><a href="{base}/map/">Back to the map →</a></p>

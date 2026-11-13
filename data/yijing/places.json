@@ -434,13 +434,26 @@
 			"approx": true
 		},
 		"activity": "The centre of I-tsing's Indian sojourn, where he lived and studied for about ten years (c. 675–685), worshipping the Root Temple (Mūlagandhakuṭī). Much of the Record's detail on monastic discipline — the assignment of rooms each year, the daily rules — is drawn from what he observed at Nālandā, which he holds up as the model of correct practice.",
-		"anecdotes": [],
+		"anecdotes": [
+			{
+				"title": "Yijing at the altar: the Vidyādhara-piṭaka",
+				"kind": "historical",
+				"summary": "In his life of the monk Tao-lin, Yijing stops to explain the Vidyādhara-piṭaka, the collection of spells (vidyā). The Sanskrit text was said to contain 100,000 ślokas. Tradition held that Nāgārjuna preserved it and that his disciple Nanda spent twelve years in Western India mastering the spells, so that food fell from the sky when he chanted at mealtimes. Nanda's digest of 12,000 ślokas used ordinary words in a different sense, and nobody could understand the mantras until they were 'expounded orally'. The collection, Yijing notes, 'was never very popular in China'. He then speaks of himself: at Nālandā he 'regularly went to the altar and wholeheartedly tried to study this Sūtra; he worked quite hard but could not attain full success'.",
+				"figures": [
+					"Yijing",
+					"Tao-lin",
+					"Nāgārjuna",
+					"Nanda"
+				]
+			}
+		],
 		"features": [
 			"Mūlagandhakuṭī (Root Temple)",
 			"ten years' residence and study",
 			"model of monastic discipline in the Record",
 			"eight halls and three hundred apartments",
-			"201 villages endowed by successive kings"
+			"201 villages endowed by successive kings",
+			"the altar where Yijing studied the Vidyādhara-piṭaka"
 		],
 		"figures": [
 			"Yijing"

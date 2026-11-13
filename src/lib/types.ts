@@ -80,7 +80,7 @@ export interface PlaceEntry {
 	type: string[];
 	firsthand: boolean;
 	yana: string[];
-	/** Pipeline-derived yāna keys (e.g. Vajrayana at Udyāna/Nālandā) — never the pilgrim's words. */
+	/** Pipeline-derived yāna keys (Vajrayana at Udyāna/Nālandā/Anurādhapura, Mahayana at Valabhī) — never the pilgrim's words. */
 	yanaDerived?: string[];
 	sect: string[];
 	monasteries: { count: number | null; text: string | null; approx: boolean };

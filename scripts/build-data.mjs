@@ -133,7 +133,7 @@ const DERIVED_SECTS = {
  * DERIVED_SECTS). No pilgrim writes "Vajrayāna": in their era it was an
  * esoteric lineage transmitted inside Mahāyāna communities, becoming public
  * only in the century after Yijing. But the records carry early traces of its
- * mantra practice, and at the two sites below — both openly Vajrayāna within
+ * mantra practice, and at the three sites below — all openly Vajrayāna within
  * roughly a century — the map adds a derived Vajrayāna:
  *  - udyana: Xuanzang (Fascicle III) found a Mahāyāna country whose people
  *    "take the recitation of spells as their profession" and whose monks are
@@ -144,23 +144,43 @@ const DERIVED_SECTS = {
  *    to master the esoteric Vidyādhara-piṭaka (Kao Seng Chuan, biography of
  *    Tao-lin); under the Pālas Nālandā taught Vajrayāna openly, and its
  *    excavated bronzes (8th c. onward) include Vajrayāna deities.
- * Gate: applied only to entries whose own extracted yana includes the
- * Mahāyāna — so Faxian's Śrāvakayāna Udyāna of 403 CE stays untouched. Never
- * the bubble colour (yanaKey stays as witnessed); it joins yanaAll (the field
- * layer) and is flagged in `yanaDerived`. Full argument + references: /about.
+ *  - simhala (Anurādhapura; Faxian's visit and Xuanzang's report): the
+ *    Abhayagiri studied both vehicles. In 742–746/747 Amoghavajra
+ *    received the Vajraśekhara corpus, the five-family abhiṣeka and 500+
+ *    Sanskrit texts in Siṃhala (Feixi's stele of 774, T 2120; Sundberg &
+ *    Giebel 2011); dhāraṇī stones from the Abhayagiri (Schopen 1982) and
+ *    9th-c. Nāgarī dhāraṇīs, Tārā bronzes and a Vajravāda school (de Silva
+ *    1981, p. 51) are the material trace. Unlike the other two sites there
+ *    is no pilgrim notice of mantra practice here: the case rests on the
+ *    later evidence alone, three centuries after Faxian (user's call,
+ *    November 2026: the evidence is enough to ring the bubble).
+ * Gate: a derived Vajrayāna applies only to entries whose own extracted yana
+ * includes the Mahāyāna — so Faxian's Śrāvakayāna Udyāna of 403 CE stays
+ * untouched. It never changes the bubble colour (drawn as a ring instead);
+ * it joins yanaAll (the field layer) and is flagged in `yanaDerived`.
+ *
+ * One derived MAHĀYĀNA, which does recolour the bubble (to "mixed"):
+ *  - valabhi: Xuanzang says "most" of its monks study the Saṃmitīya
+ *    teaching, but records there the monastery where "the bodhisattvas
+ *    Guṇamati and Sthiramati stayed and composed treatises"; Yijing pairs
+ *    Valabhī with Nālandā as a seat of learning and lists both masters.
+ * Full argument + references: /about.
  * Deliberately EXCLUDED: Dhānakaṭaka — despite the Vajrapāṇi-dhāraṇī story
  * and the later Kālacakra tradition there, its recorded community is
  * Mahāsāṃghika (Śrāvakayāna), so it fails the Mahāyāna gate.
  */
 const DERIVED_YANAS = {
 	udyana: ['Vajrayana'],
-	nalanda: ['Vajrayana']
+	nalanda: ['Vajrayana'],
+	simhala: ['Vajrayana'],
+	valabhi: ['Mahayana']
 };
 
 function derivedYanas(entry) {
 	const keys = entry.yana.map(toYanaKey);
-	if (!keys.includes('Mahayana')) return [];
-	return (DERIVED_YANAS[entry.canonicalId] ?? []).filter((y) => !keys.includes(y));
+	return (DERIVED_YANAS[entry.canonicalId] ?? []).filter(
+		(y) => !keys.includes(y) && (y !== 'Vajrayana' || keys.includes('Mahayana'))
+	);
 }
 
 function estimateMonks(monks) {
@@ -187,9 +207,10 @@ function leanStop(entry, yearInfo) {
 		name: entry.names.primary,
 		year: yearInfo.year,
 		yearInterpolated: yearInfo.interpolated,
-		// yanaKey (bubble colour) stays as witnessed; derived yānas join only
-		// yanaAll (field layer) and are flagged separately.
-		yanaKey: primaryYanaKey(yanaAll),
+		// A derived Vajrayāna never changes yanaKey (it is gated on Mahāyāna,
+		// which outranks it in primaryYanaKey) and draws as a ring; a derived
+		// Mahāyāna (Valabhī) does recolour the bubble.
+		yanaKey: primaryYanaKey([...yanaAll, ...yanaDerived]),
 		yanaAll: [...yanaAll, ...yanaDerived],
 		yanaDerived,
 		sectKeys: [...entry.sect, ...sectDerived],
@@ -221,10 +242,14 @@ for (const [pid, entries] of Object.entries(sources)) {
 
 /* --------------------------------------------------------------- places --- */
 
+// Xuanzang's Siṃhala is hearsay about the same spot as Faxian's first-hand
+// Anurādhapura: one bubble there; his report stays on the place page.
+const OFF_MAP = new Set(['xuanzang-101-simhala']);
+
 for (const [pid, stops] of Object.entries(stopsByPilgrim)) {
 	write(`places-${pid}.geojson`, {
 		type: 'FeatureCollection',
-		features: stops.map(({ lon, lat, ...properties }) => ({
+		features: stops.filter((s) => !OFF_MAP.has(s.id)).map(({ lon, lat, ...properties }) => ({
 			type: 'Feature',
 			geometry: { type: 'Point', coordinates: [lon, lat] },
 			properties

@@ -12,8 +12,16 @@
 	import '$lib/styles/typography.css';
 	import { base } from '$app/paths';
 	import { page } from '$app/state';
+	import { afterNavigate } from '$app/navigation';
+	import CookieConsent from '$lib/components/CookieConsent.svelte';
+	import { trackPageView } from '$lib/analytics';
 
 	let { children } = $props();
+
+	// GA4 page_view per client-side navigation (no-op until consent loads gtag)
+	afterNavigate(({ to }) => {
+		if (to) trackPageView(to.url.pathname + to.url.search);
+	});
 
 	let menuOpen = $state(false);
 
@@ -115,6 +123,8 @@
 		· Basemap: Natural Earth
 	</p>
 </footer>
+
+<CookieConsent />
 
 <style>
 	.skip-link {
